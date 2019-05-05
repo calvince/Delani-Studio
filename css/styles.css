@@ -21,7 +21,7 @@ h6{height: 1vh;}
     margin-bottom: 50px;
 }
 .resize{
-    font-size: cal(2vh + 2vw + 1m);
+    font-size: cal(1vh + 1vw + .5vmin);
 }
 #about,#service,#pple,.specific,#contact,.footer p{font-family: 'Merienda', cursive;}
 .col-md-12{
@@ -44,4 +44,21 @@ h1{
 }
 .specific{
     margin-bottom: 15%;
+}
+.specific{
+    margin-bottom: 15%;
+}
+.image1{
+    padding-top: 9%;
+    margin-bottom: 3%;
+}
+.image2{
+    margin-top: 20%;
+    padding: 35px 0;
+}
+.sermain{
+    margin-top: 15%;
+}
+.hide{
+    display: none;
 }
