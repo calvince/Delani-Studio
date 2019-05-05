@@ -79,3 +79,9 @@ h1{
     width: 20vw;
     background-color: transparent;
 }
+::placeholder,.con{
+    color: #fff;
+}
+.con{
+    padding-bottom: 30px;
+}
