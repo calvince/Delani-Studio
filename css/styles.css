@@ -13,6 +13,21 @@
     background-image: url('../images/backgrounds/h_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    
+    position: relative;   
+}
+h6{height: 1vh;}
+#about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.resize{
+    font-size: cal(2vh + 2vw + 1m);
+}
+#about,#service,#pple,.specific,#contact,.footer p{font-family: 'Merienda', cursive;}
+.col-md-12{
+    width: 100%;
+    color: #fff;
+    font-family: 'Akronim', cursive;
+    font-size: calc(1vw + 1vh + .5vmin); 
+    font-size: 1.1em;
 }
