@@ -112,7 +112,7 @@ h1 {
     padding: 3px;
     background: yellowgreen;
 }
-#portfolio img{
+.card img{
     width: 100%;
   }
   .card{
@@ -129,7 +129,7 @@ h1 {
     background: rgba(255, 255, 255, 0.63);
     width: 100%;
     min-height: 100%;
-    margin-top: -82%;
+    margin-top: -2%;
     cursor: pointer;
     display: none;
   }
@@ -139,8 +139,5 @@ h1 {
     margin: 20% 5%;
     padding: 5% 0;
     overflow: hidden;
-    font-family: "Questrial",serif;
     letter-spacing: 2px;
-    background: rgba(255, 255, 255, 0.664);
-    border-top: 1.5px dashed rgb(255, 153, 0); 
   }
