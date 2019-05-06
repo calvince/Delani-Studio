@@ -7,7 +7,9 @@
 This is a project that details what Delani Studio does and their works. Additionally, it allows users to send messages and receive email confirmations n receival of the messages by the company.
 ## Project live site
   This is the live .[ Click for the demo](https://calvince.github.io/Delani-Studio/)
+
   ![Image](https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/59528642_2273632706257853_400193748287356928_n.jpg?_nc_cat=104&_nc_ht=scontent.fmba3-1.fna&oh=2910f382298c06a70ea9703b6dd629cc&oe=5D71A45D)
+
 ## Setup instructions
 * Clone the program from [Online repo](https://github.com/calvince/Delani-Studio)
 * Click on the green button to clone or download
