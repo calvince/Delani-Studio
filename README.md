@@ -1,14 +1,14 @@
 :satisfied:
 # DELANI STUDIO
-#### This project interlinks clients to software developers, Sunday May 5 2019 ::
+#### This project interlinks clients to software developers, Sunday May 5 2019 
 #### By **OMONGE CALVINCE**&trade;
 
 ## Description
 This is a project that details what Delani Studio does and their works. Additionally, it allows users to send messages and receive email confirmations n receival of the messages by the company.
 ## Project live site
-  [This is the live site](https://github.com/user/repo/blob/branch/other_file.md)
+  This is the live .[ Click for the demo](https://github.com/user/repo/blob/branch/other_file.md)
 ## Setup instructions
-* Clone the program from [Online repo](https://github.com/user/repo/blob/branch/other_file.md)
+* Clone the program from [Online repo](https://github.com/calvince/Delani-Studio)
 * Click on the green button to clone or download
 
 ## Behavior Driven Development
@@ -50,6 +50,6 @@ This is a project that details what Delani Studio does and their works. Addition
 ## Support and contact details
 contact me @ calmosh1421@gmail.com
 ### License
-The project is under[MIT license](https://github.com/user/repo/blob/branch/other_file.md)
+The project is under[MIT license](https://github.com/calvince/Delani-Studio/blob/master/LICENSE)
 Copyright &copy; 2019.All rigths reservedg
   
