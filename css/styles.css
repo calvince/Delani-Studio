@@ -142,11 +142,7 @@ body {
     position: absolute;
     width: 100%;
     min-height: 100%;
-<<<<<<< HEAD
     background: rgba(0, 0, 0, 0.582);
-=======
-    margin-top: -2%;
->>>>>>> 7e8f31dda66de81130cdc692c2f6a55faa84cd22
     cursor: pointer;
     display: none;
     transition: all 0.5s ease;
@@ -164,7 +160,6 @@ body {
     margin: 20% 5%;
     overflow: hidden;
     letter-spacing: 2px;
-<<<<<<< HEAD
     font-family: 'Merienda', cursive;
 }
 @media screen and (max-width:450px) {
@@ -179,6 +174,3 @@ body {
     }
 
 }
-=======
-  }
->>>>>>> 7e8f31dda66de81130cdc692c2f6a55faa84cd22
