@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
 @import url("https://fonts.googleapis.com/css?family=Akronim");
-*,
-::after,
-::before {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -73,6 +71,18 @@ h1 {
 .hide {
     display: none;
 }
+body {
+    overflow-x: hidden;
+}
+.form-cont input {
+    width: 49%;
+    background: transparent;
+}
+.form-cont textarea {
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
+}
 #contact {
     padding-top: 100px;
     margin-bottom: 50px;
@@ -85,9 +95,13 @@ h1 {
 .footer {
     margin-top: 30px;
 }
-.form {
-    width: 20vw;
-    background-color: transparent;
+.form-cont {
+    text-align: center;
+    position: relative;
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
 }
 ::placeholder,
 .con {
@@ -112,35 +126,51 @@ h1 {
     padding: 3px;
     background: yellowgreen;
 }
-#portfolio img{
+#portfolio img {
     width: 100%;
-  }
-  .card{
-    width: 23%;
+}
+.card {
     margin: 10px 0;
     position: relative;
     overflow: hidden;
-  }
- .card:hover img{
+}
+.card:hover img {
     transform: scale(1.2);
-  }
-  .card-1{
+    transition: all 0.3s ease;
+}
+.card-1 {
     position: absolute;
-    background: rgba(255, 255, 255, 0.63);
     width: 100%;
     min-height: 100%;
-    margin-top: -82%;
+    background: rgba(0, 0, 0, 0.582);
     cursor: pointer;
     display: none;
-  }
-  .card-1 p{
+    transition: all 0.5s ease;
+}
+.ptag {
+    padding: 5% 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 50px 10px;
+    font-weight: 100%;
+    padding-top: 30px;
+    border: 4px solid whitesmoke;
     font-size: 1.1em;
     line-height: 90%;
     margin: 20% 5%;
-    padding: 5% 0;
     overflow: hidden;
-    font-family: "Questrial",serif;
     letter-spacing: 2px;
-    background: rgba(255, 255, 255, 0.664);
-    border-top: 1.5px dashed rgb(255, 153, 0); 
-  }
+    font-family: 'Merienda', cursive;
+}
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+
+}
